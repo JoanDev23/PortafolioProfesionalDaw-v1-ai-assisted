@@ -1,0 +1,23 @@
+{
+  "name": "portafolio-daw",
+  "version": "1.0.0",
+  "description": "Portafolio profesional para el Grado Superior DAW",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.ts",
+    "format": "prettier --write ."
+  },
+  "keywords": ["portafolio", "daw", "frontend", "web"],
+  "author": "Joan Jimenez",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "sass": "^1.70.0",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0"
+  }
+}
+
