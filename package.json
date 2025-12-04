@@ -10,14 +10,18 @@
     "lint": "eslint . --ext .js,.ts",
     "format": "prettier --write ."
   },
-  "keywords": ["portafolio", "daw", "frontend", "web"],
+  "keywords": [
+    "portafolio",
+    "daw",
+    "frontend",
+    "web"
+  ],
   "author": "Joan Jimenez",
   "license": "MIT",
   "devDependencies": {
-    "vite": "^5.0.0",
-    "sass": "^1.70.0",
     "eslint": "^8.50.0",
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.0",
+    "sass": "^1.94.2",
+    "vite": "^5.0.0"
   }
 }
-

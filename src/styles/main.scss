@@ -1,0 +1,8 @@
+// 1. Base (normalize, reset, typography, etc.)
+@use 'base';
+
+// 2. Sections (hero, about, projects, etc.)
+@use 'sections';
+
+// 3. Components (navbar, footer, etc.)
+@use 'components';
