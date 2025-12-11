@@ -15,6 +15,7 @@ $deep-space-blue: #003049ff;
 $steel-blue: #669bbcff;
 $white: #ffffff;
 $black: #000000;
+$gray: #e8e8e8;
 
 // ========================================
 // Colores - Semánticos (Propósito)
@@ -30,9 +31,10 @@ $color-danger: $molten-lava;         // Para errores y alertas
 
 // Fondos
 $color-bg-light: $papaya-whip;       // Fondo claro
-$color-bg-dark: $deep-space-blue;    // Fondo oscuro
+$color-bg-dark-blue: $deep-space-blue;    // Fondo oscuro
 $color-bg-white: $white;             // Fondo blanco puro
 $color-bg-black: $black;             // Fondo negro puro
+$color-bg-gray: $gray;               // Fondo gris
 
 // Textos
 $color-text-primary: $deep-space-blue;  // Texto principal (oscuro)

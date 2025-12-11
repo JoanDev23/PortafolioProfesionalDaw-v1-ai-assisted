@@ -1,0 +1,110 @@
+@use '../variables' as *;
+
+.projects {
+    padding: 4rem 1rem;
+    background-color: $color-bg-white;
+
+    &__container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    &__header {
+        margin-bottom: 1.5rem;
+        h2 {
+            text-align: center;
+            font-family: $font-family-heading;
+            font-size: 2rem;
+            font-weight: 700;
+            color: $color-text-primary;
+        }
+        p {
+            text-align: center;
+            font-family: $font-family-body;
+            font-size: 1rem;
+            font-weight: 400;
+            color: $color-accent;
+        }
+    }
+    &__card {
+        border-radius: 15px;
+        background: #ffffff;
+        box-shadow:  8px 8px 18px #e0e0e0,
+                     -8px -8px 18px #ffffff;
+        margin-bottom: 1rem;
+    }
+    &__card-image {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 5px 5px 0 0;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__card-content {
+        padding: 1rem;
+        h3 {
+            font-family: $font-family-heading;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: $color-text-primary;
+        }
+        p {
+            font-family: $font-family-body;
+            font-size: 1rem;
+            font-weight: 400;
+            color: $color-accent;
+            margin-bottom: 1rem;
+        }
+    }
+    &__card-tech {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+        margin-bottom: 1rem;
+        span {
+            font-family: $font-family-body;
+            font-size: 1rem;
+            font-weight: 400;
+            color: $color-text-accent;
+            background-color: $color-bg-light;
+            padding: 0.5rem 1rem;
+            border-radius: 10px;
+        }
+    }
+    &__card-links {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        a {
+            font-family: $font-family-body;
+            font-size: 1rem;
+            font-weight: 400;
+            background-color: $color-primary;
+            color: $color-text-white;
+            padding: .7rem;
+            border-radius: 10px;
+            width: 10rem;
+            text-align: center;
+            transition: all .3s ease-in-out;
+        }
+        a:nth-child(2) {
+            background-color: $color-bg-white;
+            color: $color-accent;
+            border: 2px solid $color-bg-dark-blue;
+        }
+        a:hover {
+            transform: translateY(-5px);
+        }        
+    }
+    &__future{
+        text-align: center;
+        padding: 2rem;
+        background-color: $color-bg-light;
+        border-radius: 15px;
+        box-shadow:  8px 8px 18px #e0e0e0,
+                     -8px -8px 18px #ffffff;
+    }
+}

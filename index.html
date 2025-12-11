@@ -59,15 +59,98 @@
             </div>
         </section>
 
+        <!-- Projects section -->
         <section class="projects">
-            <div class="projects__container">
-                <div class="projects__container--text">
-                    <h2>Proyectos</h2>
-                    <p>Algunos de mis proyectos más destacados:</p>
+    <div class="projects__container">
+        <!-- Encabezado -->
+        <div class="projects__header">
+            <h2>Proyectos</h2>
+            <p>Proyectos de práctica mientras me preparo para comenzar DAW en febrero de 2026</p>
+        </div>
+
+        <!-- Grid de proyectos -->
+        <div class="projects__grid">
+            
+            <!-- Proyecto 1: Este Portafolio -->
+            <div class="projects__card">
+                <div class="projects__card-image">
+                    <img src="./src/assets/images/portfolio-preview.png" alt="Portafolio Personal">
+                </div>
+                <div class="projects__card-content">
+                    <h3>Portafolio Personal</h3>
+                    <p>Portafolio web profesional desarrollado con HTML5, Sass y JavaScript modular usando Vite como bundler.</p>
+                    
+                    <!-- Tecnologías -->
+                    <div class="projects__card-tech">
+                        <span>HTML5</span>
+                        <span>Sass</span>
+                        <span>JavaScript</span>
+                        <span>Vite</span>
+                    </div>
+                    
+                    <!-- Enlaces -->
+                    <div class="projects__card-links">
+                        <a href="#" target="_blank">Ver Demo</a>
+                        <a href="https://github.com/tu-usuario/portafolio" target="_blank">GitHub</a>
+                    </div>
                 </div>
             </div>
-        </section>
 
+            <!-- Proyecto 2: Calculadora (ejemplo) -->
+            <div class="projects__card">
+                <div class="projects__card-image">
+                    <img src="./src/assets/images/calculator-preview.jpg" alt="Calculadora Web">
+                </div>
+                <div class="projects__card-content">
+                    <h3>Calculadora Web</h3>
+                    <p>Calculadora funcional con operaciones básicas, diseño moderno y responsive.</p>
+                    
+                    <div class="projects__card-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    
+                    <div class="projects__card-links">
+                        <a href="#" target="_blank">Ver Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 3: To-Do List (ejemplo) -->
+            <div class="projects__card">
+                <div class="projects__card-image">
+                    <img src="./src/assets/images/todo-preview.jpg" alt="To-Do List">
+                </div>
+                <div class="projects__card-content">
+                    <h3>To-Do List</h3>
+                    <p>Aplicación de gestión de tareas con localStorage para persistencia de datos.</p>
+                    
+                    <div class="projects__card-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                    
+                    <div class="projects__card-links">
+                        <a href="#" target="_blank">Ver Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Mensaje de proyectos futuros -->
+        <div class="projects__future">
+            <p>🚀 <strong>Más proyectos próximamente</strong></p>
+            <p>Esta sección se actualizará con proyectos desarrollados durante mi formación en el Grado Superior de Desarrollo de Aplicaciones Web (febrero 2026)</p>
+        </div>
+    </div>
+</section>
+
+        <!-- Skills section -->
         <section class="skills">
             <div class="skills__container">
                 <div class="skills__container--text">
@@ -112,6 +195,7 @@
             </div>
         </section>
 
+        <!-- Contact section -->
         <section class="contact">
             <div class="contact__container">
                 <div class="contact__container--text">
@@ -121,13 +205,28 @@
             </div>
         </section>
     </main>
-    <footer>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Informacion principal -->
         <div class="footer__container">
-            <div class="footer__container--text">
-                <h2>Joan Jimenez</h2>
-                <p>Full Stack Developer</p>
+            <div class="footer__info">
+                <h3>Joan Jimenez</h3>
+                <p>Estudiante de Desarrollo de Aplicaciones Web</p>
             </div>
         </div>
+
+        <!-- Redes Sociales -->
+         <div class="footer__social">
+            <a href="#"><img src="./src/assets/icons/github.svg" aria-label="github" alt=""></a>
+            <a href="#"><img src="./src/assets/icons/linkedin.svg" aria-label="linkedin" alt=""></a>
+            <a href="#"><img src="./src/assets/icons/twitter.svg" aria-label="twitter" alt=""></a>
+            <a href="mailto:joan.jimenez.dev@gmail.com"><img src="./src/assets/icons/mail.svg" aria-label="mail" alt=""></a>
+         </div>
+
+         <div class="footer__copyright">
+            <p>&copy; 2025 Joan Jimenez. Todos los derechos reservados.</p>
+         </div>
     </footer>
 
     <script type="module" src="/src/scripts/main.js"></script>
