@@ -10,7 +10,7 @@ $font-family-body: 'Roboto', sans-serif;
 // ========================================
 $molten-lava: #780000ff;
 $brick-red: #c1121fff;
-$papaya-whip: rgb(255, 248, 235);
+$papaya-whip: #fff5e6;
 $deep-space-blue: #003049ff;
 $steel-blue: #669bbcff;
 $white: #ffffff;
@@ -42,3 +42,9 @@ $color-text-light: $papaya-whip;        // Texto sobre fondos oscuros
 $color-text-accent: $brick-red;         // Texto destacado
 $color-text-white: $white;              // Texto blanco puro
 $color-text-black: $black;              // Texto negro puro
+
+// Iconos
+$color-icon-primary: $brick-red;        // Iconos principales
+$color-icon-secondary: $deep-space-blue; // Iconos secundarios
+$color-icon-accent: $steel-blue;         // Iconos de acento
+

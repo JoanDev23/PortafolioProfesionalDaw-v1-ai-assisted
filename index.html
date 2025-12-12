@@ -61,15 +61,15 @@
 
         <!-- Projects section -->
         <section class="projects">
-    <div class="projects__container">
-        <!-- Encabezado -->
-        <div class="projects__header">
-            <h2>Proyectos</h2>
-            <p>Proyectos de práctica mientras me preparo para comenzar DAW en febrero de 2026</p>
-        </div>
+            <div class="projects__container">
+                <!-- Encabezado -->
+                <div class="projects__header">
+                    <h2>Proyectos</h2>
+                    <p>Proyectos de práctica mientras me preparo para comenzar DAW en febrero de 2026</p>
+                </div>
 
-        <!-- Grid de proyectos -->
-        <div class="projects__grid">
+                <!-- Grid de proyectos -->
+                <div class="projects__grid">
             
             <!-- Proyecto 1: Este Portafolio -->
             <div class="projects__card">
@@ -99,7 +99,7 @@
             <!-- Proyecto 2: Calculadora (ejemplo) -->
             <div class="projects__card">
                 <div class="projects__card-image">
-                    <img src="./src/assets/images/calculator-preview.jpg" alt="Calculadora Web">
+                    <img src="./src/assets/images/calculator-preview.png" alt="Calculadora Web">
                 </div>
                 <div class="projects__card-content">
                     <h3>Calculadora Web</h3>
@@ -148,7 +148,7 @@
             <p>Esta sección se actualizará con proyectos desarrollados durante mi formación en el Grado Superior de Desarrollo de Aplicaciones Web (febrero 2026)</p>
         </div>
     </div>
-</section>
+        </section>
 
         <!-- Skills section -->
         <section class="skills">
@@ -198,10 +198,37 @@
         <!-- Contact section -->
         <section class="contact">
             <div class="contact__container">
-                <div class="contact__container--text">
-                    <h2>Contacto</h2>
-                    <p>Si tienes alguna pregunta o sugerencia, no dudes en contactarme:</p>
+                <h2>Contacto</h2>
+                <p>Si tienes alguna pregunta o sugerencia, no dudes en contactarme:</p>
+                <div class="contact__social">
+                    <a href="https://linkedin.com/in/JoanDev23" target="_blank" class="contact__social-link">
+                        <img src="./src/assets/icons/linkedin.svg" alt="LinkedIn">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/JoanDev23" target="_blank" class="contact__social-link">
+                        <img src="./src/assets/icons/github.svg" alt="GitHub">
+                        <span>GitHub</span>
+                    </a>
                 </div>
+                
+                <form action="" class="contact__form">
+                    <div class="contact__form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Nombre completo" required>
+
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Correo electronico" required>
+
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" id="message" placeholder= "Escribe tu mensaje" required></textarea>
+
+                    </div>
+                    <button type="submit" class="contact__form-button">Enviar</button>
+                </form>
             </div>
         </section>
     </main>

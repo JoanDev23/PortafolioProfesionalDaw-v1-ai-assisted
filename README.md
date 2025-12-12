@@ -118,8 +118,8 @@ npm run lint     # Ejecutar ESLint
 **Joan Jimenez**
 
 - Email: joan.jimenez.dev@gmail.com
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-usuario)
+- GitHub: [@JoanDev23](https://github.com/JoanDev23)
+- LinkedIn: [JoanDev23](https://linkedin.com/in/JoanDev23)
 
 ## 📄 Licencia
 
