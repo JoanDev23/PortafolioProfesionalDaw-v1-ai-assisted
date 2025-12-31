@@ -1,5 +1,10 @@
 # 🚀 Portafolio Profesional DAW
 
+> **AVISO:** Este proyecto fue desarrollado utilizando herramientas de Inteligencia Artificial y agentes (Antigravity/GitHub Copilot). 
+> 
+> **Estado actual:** PROYECTO DE REFERENCIA. 
+> He decidido mantener este repositorio como histórico de exploración tecnológica, pero actualmente estoy reconstruyendo toda la lógica de forma manual en un nuevo repositorio para consolidar mis conocimientos en el grado de DAW.
+
 Portafolio web personal desarrollado como preparación para el **Grado Superior en Desarrollo de Aplicaciones Web** (DAW), que comenzaré en febrero de 2026.
 
 ## 📖 Sobre el Proyecto
