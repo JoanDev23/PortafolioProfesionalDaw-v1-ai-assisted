@@ -19,7 +19,10 @@
   "author": "Joan Jimenez",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
     "eslint": "^8.50.0",
+    "globals": "^17.0.0",
     "prettier": "^3.0.0",
     "sass": "^1.94.2",
     "vite": "^5.0.0"
